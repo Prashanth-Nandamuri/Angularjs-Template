@@ -1,0 +1,74 @@
+.navbar-header > a{
+	padding-left: 100px;
+}
+.nav{
+	padding-right: 90px;
+}
+#local {
+	margin-bottom: 20px;
+}
+#local > h2 {
+	font-size: 250%;
+}
+#local > h2 > span{
+	font-size: 70%;
+	color: grey;
+}
+#body{
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 75px;
+}
+#localNav{
+	background-color: #f5f5f5;
+	padding:15px;
+}
+#localNav > span{
+	color:grey;
+}
+.row{
+	padding-left:15px;
+	padding-right:15px;
+}
+.col-sm-8 .col-sm-4 {
+	padding: initial;
+}
+.col-sm-8 .email{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.col-sm-4 > p{
+	padding-bottom: 10px;
+}
+.panel-body{
+	padding: 0px;
+}
+.panel-body h1{
+	height: 50px;
+}
+h1 small{
+	color:black;
+}
+#footer{
+	margin-top: 50px;
+}
+.tab-pane{
+	padding-top: 10px;
+}
+.tab-content span{
+	float: left;
+}
+.glyphicon-wrench{
+	margin: 10px;
+	font-size: 40px;
+}
+.jumbotron{
+	margin-right: -100px;
+	margin-left: -100px;
+}
+.thumb{
+	margin-bottom: 30px;
+}
+.jumbotron li{
+	margin-left: 50px;
+}

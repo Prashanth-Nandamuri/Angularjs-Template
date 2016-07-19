@@ -1,0 +1,51 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+    <title></title>
+    <meta charset="utf-8" /> 
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="styles.css"> 	
+</head>
+<body ng-controller="mainController">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#/home">ACME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/services">Services</a></li>
+        <li><a href="#/price">Pricing Table</a></li> 
+        <li><a href="#/about">About</a></li> 
+        <li><a href="#/faq">FAQ</a></li>
+        <li><a href="#/contact">Contact</a></li>
+        <li class="dropdown">
+        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<span class="caret"></span></a>
+        	<ul class="dropdown-menu">
+          	<li><a href="#">List of Posts</a></li>
+          	<li><a href="#">View one post</a></li>
+        	</ul>
+      	</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="body">
+	<div class="page {{pageClass}}" ng-view></div>
+</div>
+<div id="footer" class="footer text-center"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
