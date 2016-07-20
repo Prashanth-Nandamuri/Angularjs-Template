@@ -4,6 +4,8 @@ This project is just a template to better understand the Route Providers in Angu
 The reference for the site can be found here: http://airpair.github.io/demos/2014/09/T0021-airpair-angularjs-tutorial/#/  
   
 Launch project: https://prashanth-nandamuri.github.io/Angularjs-Template/  
+
+https://codeship.com/projects/0a3b7690-30c6-0134-f93d-42e359ddec8c/status?branch=master
   
 Requirements:  
 1. Need to host the project on a server to see how routes work.  
