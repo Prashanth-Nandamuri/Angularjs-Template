@@ -10,4 +10,4 @@ https://codeship.com/projects/0a3b7690-30c6-0134-f93d-42e359ddec8c/status?branch
 Requirements:  
 1. Need to host the project on a server to see how routes work.  
 2. If you have node.js installed, then you can install a local server using "npm install -g httpserver" and then host by "http-server -o"  
-3. Load unsafe scripts while launching the website. (In chrome click the shield to the right in the URL)
+3. Load unsafe scripts while launching the website. (https://prashanthnandamuri.wordpress.com/2016/07/31/loading-unsafe-scripts-in-browsers/)
